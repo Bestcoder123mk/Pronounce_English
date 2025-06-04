@@ -1,11 +1,10 @@
-🗣️ Pronunciation Teacher
+PRONOUNCE ENGLISH is an ai-powered web app to improve your english pronunciation. Type a word, listen to it, pronounce it yourself, and get feedback out of 10!
 
-An AI-powered web app to improve your English pronunciation. Type a word, listen to it, pronounce it yourself, and get feedback out of 10!
+Features:
+.dictionary lookup using DictionaryAPI.dev
+.speech recognition and scoring
+.syllable-by-syllable animation
+.real audio feedback
 
-🎯 Features:
-.Dictionary lookup using DictionaryAPI.dev
-.Speech recognition and scoring
-.Syllable-by-syllable animation
-.Real audio feedback
-
-https://your-username.github.io/pronunciation-teacher
+check it out:
+[https://your-username.github.io/pronunciation-teacher](https://bestcoder123mk.github.io/Pronounce_English/)
