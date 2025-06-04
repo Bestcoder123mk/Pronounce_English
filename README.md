@@ -7,4 +7,4 @@ Features:
 .real audio feedback
 
 check it out:
-[https://your-username.github.io/pronunciation-teacher](https://bestcoder123mk.github.io/Pronounce_English/)
+(https://bestcoder123mk.github.io/Pronounce_English/)
