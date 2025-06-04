@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+  text-align: center;
+}
+.container {
+  background: white;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+#syllableSteps span {
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #eee;
+  transition: background 0.5s;
+  font-size: 18px;
+}
+#syllableSteps span.active {
+  background-color: #4caf50;
+  color: white;
+}

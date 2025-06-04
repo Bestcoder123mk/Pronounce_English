@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pronunciation Teacher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🗣️ Pronunciation Teacher</h1>
+    <input type="text" id="wordInput" placeholder="Enter a word..." />
+    <button onclick="fetchWord()">Get Word Info</button>
+
+    <div id="wordInfo" class="hidden">
+      <h2 id="selectedWord"></h2>
+      <p><strong>Phonetics:</strong> <span id="phonetics"></span></p>
+      <p><strong>Syllables:</strong> <span id="syllables"></span></p>
+      <button onclick="startRecognition()">🎤 Pronounce Word</button>
+      <p><strong>You Said:</strong> <span id="userSpeech"></span></p>
+      <p><strong>Score:</strong> <span id="score"></span>/10</p>
+      <button onclick="playAudio()">🔊 Hear Word</button>
+
+      <div id="syllableAnimation" class="hidden">
+        <h3>Syllable-by-Syllable</h3>
+        <div id="syllableSteps"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
